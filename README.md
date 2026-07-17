@@ -24,6 +24,16 @@ v3.5 将单一分析流程升级为更结构化的 AI Agent 协作流程：
 
 本项目适合与 Codex、TradingView MCP、Binance 合约数据接口等工具配合使用。
 
+## 后续发展
+
+后续计划将项目从单一 SOP 继续演进为更完整的 AI 交易分析工作流：
+
+- SOP 模块化：将行情结构、合约数据、风险控制、多空辩论、评级与输出拆成可复用模块。
+- 交易日志：建立标准化交易记录，用于沉淀入场、出场、仓位、滑点和执行偏差。
+- 复盘体系：完善单笔复盘、日复盘、周复盘和月复盘，让交易结果反向校验 SOP。
+- 经验学习：把复盘中重复出现的有效模式和失败模式沉淀为待验证经验，再逐步升级为已验证经验。
+- Skill 打包：将成熟后的 SOP、模板和执行流程打包为 Codex skill，方便在不同任务中稳定调用。
+
 ## English
 
 An AI-assisted BTC intraday futures analysis SOP knowledge base, designed to work with Codex / AI Agents for market analysis, trade planning, risk control, and review-driven iteration.
@@ -51,3 +61,13 @@ This project is designed to work with Codex, TradingView MCP, Binance futures da
 ## Disclaimer
 
 For personal research and workflow management only. Not financial advice.
+
+## Roadmap
+
+The project will continue evolving from a single SOP into a more complete AI trading analysis workflow:
+
+- Modular SOP: split market structure, futures data, risk control, bull/bear debate, grading, and output into reusable modules.
+- Trade logs: build standardized records for entries, exits, position sizing, slippage, and execution deviations.
+- Review system: improve single-trade, daily, weekly, and monthly reviews so trading results can feed back into the SOP.
+- Experience learning: turn recurring effective patterns and failure modes into pending experience, then gradually promote them into validated experience.
+- Skill packaging: package the mature SOP, templates, and execution workflow as a Codex skill for stable reuse across tasks.
